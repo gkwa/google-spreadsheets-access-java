@@ -16,6 +16,11 @@ ln -s /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/bin/java /
 export "PATH=/usr/local/bin:$PATH"
 ```
 
+# install dependencies
+```sh
+brew install wget p7zip
+```
+
 ```sh
 cd google-spreadsheets-access-java
 # next line will cause exception, but thats ok becuase just need to add password to build.properties
